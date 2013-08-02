@@ -5,7 +5,7 @@ import (
     "strings"
 )
 
-var SUBC = "spdfghijklmnoqrtuvwxyz"
+const SUBC = "spdfghijklmnoqrtuvwxyz"
 
 type Subshell struct {
     N int
