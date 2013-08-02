@@ -28,7 +28,7 @@ function getEC(aN) {
     out = '';
     while (aN > 0) {
         out += cSubshell.n + cSubshell.s;
-        if (aN - cSubshell.n > 0) {
+        if (aN - cSubshell.maxE > 0) {
             out += cSubshell.maxE;
         } else {
             out += aN;
